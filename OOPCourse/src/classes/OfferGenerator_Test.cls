@@ -20,5 +20,6 @@ private class OfferGenerator_Test {
         Offer__c testOffer = [SELECT Id FROM Offer__c LIMIT 1];
         
         System.assert(testOffer != null);
+        System.debug('Test');
     }
 }
